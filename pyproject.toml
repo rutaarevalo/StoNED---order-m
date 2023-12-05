@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "stoned-ordenm"
+version = "0.1.0"
+description = ""
+authors = ["Sebastian Rincon <sebas199765@gmail.com>, Alexander Arevalo Soto <aarevalo@profesores.uniajc.edu.co>"]
+readme = "README.md"
+packages = [{include = "stoned_ordenm"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pystoned = "^0.6.1"
+pandas="^1.5.3"
+numpy="^1.24.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
